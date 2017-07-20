@@ -16,10 +16,10 @@ window.onload=function(){
        });
        
        $(".tab-ul>li").mouseover(function(){
-       		$(".tab-list").stop().slideDown(200)
+       		$(".tab-list").stop().slideDown(300)
        })
        $("#tab").mouseleave(function(){
-       		$(".tab-list").stop().slideUp(200)
+       		$(".tab-list").stop().slideUp(300)
        });
        
 		
